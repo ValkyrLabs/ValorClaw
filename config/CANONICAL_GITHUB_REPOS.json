@@ -1,0 +1,13 @@
+{
+  "version": "2026-03-01",
+  "organization": "ValkyrLabs",
+  "trackedRepos": [
+    "ValkyrLabs/ValkyrAI",
+    "ValkyrLabs/ValorIDE"
+  ],
+  "policy": {
+    "enforceTrackedReposOnly": true,
+    "retargetOnClosedOrBlocked": true,
+    "closeMergedImmediately": true
+  }
+}
