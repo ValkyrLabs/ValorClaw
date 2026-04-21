@@ -57,7 +57,9 @@ Operationally, TrustLove means:
 See also:
 - `docs/TRUSTLOVE_AND_SOUL.md`
 - `docs/6D_CONTINUOUS_IMPROVEMENT.md`
+- `docs/GRAYMATTER_INSTALL_AND_RUNBOOK.md`
 - `templates/AGENTS_TEMPLATE.md`
+- `templates/SOUL_TEMPLATE.md`
 
 ## What this repo provides
 
