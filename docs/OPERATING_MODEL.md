@@ -47,6 +47,11 @@ If GrayMatter is unavailable:
 - write the minimum replayable fallback locally,
 - recover to GrayMatter as soon as practical.
 
+If GrayMatter has not been installed and write-verified yet:
+- keep the instance in bootstrap mode,
+- do not pretend durable continuity exists,
+- do not authorize autonomous execution that depends on durable state.
+
 ## Delegation matrix by use case
 
 The delegation matrix should be capability-based and generic enough to work in many deployments.

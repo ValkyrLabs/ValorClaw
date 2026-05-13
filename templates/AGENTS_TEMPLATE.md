@@ -38,6 +38,11 @@ Rules:
 - Use local files only for bootstrap, cache, temporary notes, or outage fallback.
 - If GrayMatter is unavailable, say so clearly and leave the smallest replayable local fallback.
 - Do not fake continuity when durable memory is down.
+- Do not treat a read-only credential as a valid production GrayMatter setup.
+- New instances should fail loudly during bootstrap if GrayMatter is required but not installed, reachable, and write-verified.
+
+Required companion doc:
+- `docs/GRAYMATTER_INSTALL_AND_RUNBOOK.md`
 
 ## Non-negotiables
 
