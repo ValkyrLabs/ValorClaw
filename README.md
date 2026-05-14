@@ -89,10 +89,26 @@ See also:
 
 1. Copy templates into your new instance workspace.
 2. Install and verify GrayMatter before trusting durable memory behavior.
-3. Set environment variables in your platform secret manager.
+3. Set environment variables and secrets in your platform secret manager.
 4. Point automation to canonical repos and runbooks.
 5. Start with one heavy lane, then scale deliberately.
 6. Review resilience, cleanup, and delegation rules before autonomous execution.
+
+## Mandatory GrayMatter installation contract
+
+A ValorClaw instance is not production-ready until GrayMatter is actually installed, authenticated, and smoke-tested.
+
+Minimum contract:
+- a real GrayMatter/API endpoint is configured
+- auth is present and write-capable
+- read access is verified
+- write access is verified
+- outage fallback is documented
+- the instance docs record the exact setup path used
+
+For Valkyr-backed deployments, assume the auth layer must be able to write through the live API surface, not just read schema metadata. A read-only token is a broken deployment for ValorClaw purposes.
+
+Use `docs/GRAYMATTER_INSTALL_AND_RUNBOOK.md` as a required setup gate, not optional reading.
 
 ## Operating identity
 
